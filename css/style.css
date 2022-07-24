@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, monospace;
+}
+header {
+    background-color: #00e7e3;
+}
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 10%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.donate {
+    height: auto;
+    width: 55%;
+    border-radius: 20px;
+}
+.wordsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74F5F8;}
+h1 {
+    font-size: 300%;
+    }
+#moneyback {
+    font-style: italic;
+}
+.headerbutton {
+    color: #3f4d6d;
+    background-color: #00e7e3;
+    border-style: solid;
+    border-color: #3f4d6d;
+    border-width: 2px;
+    border-radius: 20px;
+    font-weight: 800;
+    padding: 2px 10px;
+    font-family: 'Times New Roman', Times, serif, monospace;
+}
+.headerright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagebutton {
+    color: #3f4d6d;
+    background-color: #00e7e3;
+    border-style: solid;
+    border-color: #3f4d6d;
+    border-width: 2px;
+    border-radius: 20px;
+    font-weight: 800;
+    padding: 4% 15%;
+    font-family: 'Times New Roman', Times, serif, monospace;
+    font-size: larger;
+} 
+  .pagebutton:hover {
+    background-color: #17c7c7;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .headerbutton:hover {
+    background-color: #17c7c7;
+    color: white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24);
+  }
