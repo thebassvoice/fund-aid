@@ -4,6 +4,7 @@ body {
 }
 header {
     background-color: #00e7e3;
+    top: 0;
 }
 .headercontainer {
     display: flex;
@@ -70,4 +71,40 @@ h1 {
     background-color: #17c7c7;
     color: white;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24);
+  }
+  .quote {
+    background-color: #74f5f8;
+    padding: 4%;
+    margin: 5% 10%;
+    border-radius: 100px;
+  }
+  p {
+    text-align: center;
+  }
+  .quotename {
+    text-align: end;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f4d6d;
+    padding: 1%;
+    color: aliceblue;
+    margin: 0% 10%;
+  }
+  footer {
+    background-color: #3f4d6d;
+    bottom: 0;
+  }
+  .logo {
+    width: auto;
+    height: 45px;
+    border-radius: 50%;
   }
